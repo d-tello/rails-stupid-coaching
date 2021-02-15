@@ -1,0 +1,30 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body>form>input[type=text]:nth-child(1) {
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  border-color: #CCCCCC;
+}
+
+body>form>input[type=submit]:nth-child(2) {
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  width: 100px;
+  background-color: #337AB7;
+  font-weight: bold;
+  border-color: #337AB7;
+}
+
+.container {
+  border-left: 10px #CCCCCC solid;
+  padding-left: 20px;
+  width: 600px;
+}
+
+body>div:nth-child(3) {
+  background-color: #FFFFE1;
+}
